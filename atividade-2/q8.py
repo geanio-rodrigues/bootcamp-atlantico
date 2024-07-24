@@ -7,4 +7,4 @@ import pandas as pd
 dados = pd.read_csv('meu_arquivo.csv')
 
 # Exibindo as primeiras linhas
-dados.head()
+print(dados.head())  # No GoogleColab apenas usando dados.head() ele também exibe as linhas
